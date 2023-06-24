@@ -217,11 +217,5 @@ def most_complex(repository):
 
  print(f"{max_url} is the most complex repository. It has a technical complexity score of {max_score}. And please refer to the following metrics, which were considered for making this decision: \n {max_complexity}" )
 
-"""### User input"""
 
-
-url = input("Please enter your github url: ")
-repositories= fetch_user_repo(url)
-
-most_complex(repositories)
 
