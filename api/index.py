@@ -9,7 +9,7 @@ def handler(request):
 
     # Invoke your existing Python code using the input data
     repositories= fetch_user_repo(input_data)
-    result = (repositories)
+    result = most_complex(repositories)
 
     # Return the result as the HTTP response
     response = {
